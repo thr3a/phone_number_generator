@@ -1,10 +1,14 @@
 <template>
   <div id="app" class="container pt-5">
     <div class="text-center">
-      <h1 class="display-3">ダミー電話番号生成器</h1>
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-3">ダミー電話番号生成器</h1>
+        </div>
+      </div>
       <p>現在使用されていない携帯電話の番号を自動生成します。記入例やテスト等にどうぞ。</p>
       <div class="row form-group">
-        <div class="input-group col-6 offset-3">
+        <div class="input-group col-md-6 offset-md-3">
           <input type="text" v-model="dummy_phone_number" class="form-control form-control-lg">
           <div class="input-group-append">
             <button class="btn btn-primary" type="button" v-on:click="generate">再生成</button>
