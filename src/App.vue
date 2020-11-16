@@ -22,7 +22,7 @@
       <p>総務省公式サイトの<a href="http://www.soumu.go.jp/main_sosiki/joho_tsusin/top/tel_number/number_shitei.html" target="_blank">電気通信番号指定状況
   </a>から、電気通信事業者がまだ割り当てられていない部分を抽出して生成しています。使う際は自己責任でお願いします。</p>
       <p class="lead">いつのデータ？</p>
-      <p>最終更新日時：平成30年5月19日</p>
+      <p>最終更新日時：2020年11月1日</p>
     </div>
   </div>
 </template>
